@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    /* border:1px solid grey; */
+    border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -162,11 +162,11 @@ footer nav a {
     justify-content: center;
     padding:1% 0;
 }
-a:link{
+header a:link{
     text-decoration: none;
     color:black;
 }
-a:visited {
+header a:visited {
     text-decoration: none;
     color:black;
 }
@@ -291,12 +291,25 @@ hr{
     /* border:1px solid green;*/
 } 
 .colbox{
-    margin-right:5%;
+    margin-right:7%;
     border-bottom:0.5px dashed black;  
+    margin-bottom:3%;
 }
 .colbox img{
-    margin-top: 5%;
+    margin-top:7%;
+    margin-bottom:3%;
 }
 button{
     margin:5% auto;
+    border:1.5px solid black;
+    border-radius:10px;
+    height: 40px;
+    width:140px;
+    font-size: medium;
+}
+/*letsworktogether section code goes here*/
+.letsworktogether{
+    display: flex;
+    flex-direction: column;
+    margin:1% 27.5%;
 }
