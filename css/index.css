@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    /* border:1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -101,7 +102,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,7 +111,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .bottom-content {
     display: flex;
@@ -127,7 +128,7 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
 }
 
@@ -143,4 +144,209 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*Homepage Navigation and header code goes here*/
+.links{
+    width:45%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:1%;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    padding: 1% 1%;
+}
+.headerimg{
+    display:flex;
+    justify-content: center;
+    padding:1% 0;
+}
+/*Homepage Box Color code goes*/
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1:hover{
+    background:blue;
+    transition:all 0.8s ease;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2:hover{
+    background:grey;
+    transition:all 0.8s ease;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3:hover{
+    background:red;
+    transition:all 0.8s ease;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4:hover{
+    background:rgb(52, 160, 61);
+    transition:all 0.8s ease;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5:hover{
+    background:rgb(240, 129, 129);
+    transition:all 0.8s ease;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6:hover{
+    background:rgb(12, 8, 78);
+    transition:all 0.8s ease;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7:hover{
+    background:rgb(173, 196, 42);
+    transition:all 0.8s ease;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8:hover{
+    background:rgb(51, 150, 48);
+    transition:all 0.8s ease;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9:hover{
+    background:rgba(117, 106, 0, 0.945);
+    transition:all 0.8s ease;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10:hover{
+    background:rgb(118, 204, 182);
+    transition:all 0.8s ease;
+}
+/*About page code goes here*/
+hr{
+    margin: 1% 2%;
+    border:0.5px dashed black;
+}
+/*Four square grid code goes here*/
+.colsect{
+    display:flex;
+    /* border:1px solid red; */
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.column{
+    /* width: 45%; */
+    display:flex;
+    
+    /* border:1px solid green;*/
+} 
+.colbox{
+    margin-right:7%;
+    border-bottom:0.5px dashed black;  
+    margin-bottom:3%;
+}
+.colbox img{
+    margin-top:7%;
+    margin-bottom:3%;
+}
+button{
+    margin:5% auto;
+    border:1.5px solid black;
+    border-radius:10px;
+    height: 40px;
+    width:140px;
+    font-size: medium;
+}
+/*letsworktogether section code goes here*/
+.letsworktogether{
+    display: flex;
+    flex-direction: column;
+    margin:4% 2.5%;
 }
