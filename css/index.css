@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -128,7 +128,7 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
 }
 
@@ -151,6 +151,11 @@ footer nav a {
     display:flex;
     justify-content: space-around;
     align-items: center;
+    margin-top:1%;
+}
+.links a{
+    text-decoration: none;
+    color: black;
 }
 .navigation{
     display: flex;
@@ -161,14 +166,6 @@ footer nav a {
     display:flex;
     justify-content: center;
     padding:1% 0;
-}
-header a:link{
-    text-decoration: none;
-    color:black;
-}
-header a:visited {
-    text-decoration: none;
-    color:black;
 }
 /*Homepage Box Color code goes*/
 .box1{
@@ -273,7 +270,7 @@ header a:visited {
 }
 /*About page code goes here*/
 hr{
-    margin: 1% 27%;
+    margin: 1% 2%;
     border:0.5px dashed black;
 }
 /*Four square grid code goes here*/
@@ -285,7 +282,7 @@ hr{
     flex-flow: column;
 }
 .column{
-    width: 45%;
+    /* width: 45%; */
     display:flex;
     
     /* border:1px solid green;*/
@@ -311,5 +308,5 @@ button{
 .letsworktogether{
     display: flex;
     flex-direction: column;
-    margin:1% 27.5%;
+    margin:4% 2.5%;
 }
