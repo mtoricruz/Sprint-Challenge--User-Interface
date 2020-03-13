@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -143,4 +144,21 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*Homepage Navigation and header code goes here*/
+.links{
+    width:45%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    padding: 1% 1%;
+}
+.headerimg{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 1%;
 }
