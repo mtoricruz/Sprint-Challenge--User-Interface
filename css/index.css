@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -270,4 +270,33 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/*About page code goes here*/
+hr{
+    margin: 1% 27%;
+    border:0.5px dashed black;
+}
+/*Four square grid code goes here*/
+.colsect{
+    display:flex;
+    /* border:1px solid red; */
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.column{
+    width: 45%;
+    display:flex;
+    
+    /* border:1px solid green;*/
+} 
+.colbox{
+    margin-right:5%;
+    border-bottom:0.5px dashed black;  
+}
+.colbox img{
+    margin-top: 5%;
+}
+button{
+    margin:5% auto;
 }
